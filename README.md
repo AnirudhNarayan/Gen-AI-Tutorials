@@ -29,6 +29,7 @@ This repository covers both major paradigms of generative AI:
 ### 🔮 VAE Architectures
 - **Beta-VAE** - Disentangled representation learning with controllable β parameter
 - **Vector Quantized VAE (VQ-VAE)** - Discrete latent representations
+ - **DDPM (Denoising Diffusion Probabilistic Models)** - Diffusion-based generative models and score-based sampling (notebooks in `DDPM_Architecture/`)
 
 ### 🛠️ Technical Features
 - **Clean, Modular PyTorch Code**
@@ -65,8 +66,16 @@ Gen-AI-IITM-Tutorials/
 │   ├── VQ_VAE.ipynb           # Vector Quantized VAE
 │   └── data/                  # Dataset storage
 │
+├── DDPM_Architecture/         # Diffusion model implementations (DDPM)
+│   ├── DDPM.ipynb
+│   ├── DDPM_Mean_estimate.ipynb
+│   ├── DDPM_Sample_estimate.ipynb
+│   ├── DDPM_Score_Estimate.ipynb
+│   └── DDPN_Guided_Diffusion.ipynb
+│
 ├── Assignments/               # Course assignments
-│   └── OPPE_Mock_WGAN_250816_123209.pdf
+│   ├── OPPE_Mock_WGAN_250816_123209.pdf
+│   └── Assignment.ipynb        # OPPE mock WGAN implementation (notebook)
 │
 ├── .ipynb_checkpoints/       # Jupyter notebook checkpoints
 └── README.md                 # This file
